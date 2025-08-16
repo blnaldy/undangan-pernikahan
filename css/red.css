@@ -1,0 +1,70 @@
+/* Red Theme Variant */
+:root {
+  --soft-pink: #FFE4E1;
+  --peach: #FFB6C1;
+  --light-grey: #F5F5F5;
+  --blush: #FFF0F5;
+  --rose: #DC143C;
+  --dark-text: #2C1810;
+  --light-text: #8B4513;
+  --white: #ffffff;
+  --shadow: rgba(220, 20, 60, 0.1);
+  --shadow-hover: rgba(220, 20, 60, 0.2);
+}
+
+/* Override specific elements for red theme */
+.red-theme .hero-section {
+  background: linear-gradient(135deg, var(--soft-pink) 0%, var(--peach) 50%, var(--rose) 100%);
+}
+
+.red-theme .open-btn {
+  background: linear-gradient(135deg, var(--rose), var(--peach));
+}
+
+.red-theme .nav-item:hover {
+  background: var(--rose);
+}
+
+.red-theme .music-btn {
+  background: var(--rose);
+}
+
+.red-theme .countdown-item span {
+  color: var(--rose);
+}
+
+.red-theme .event-icon {
+  background: linear-gradient(135deg, var(--rose), var(--peach));
+}
+
+.red-theme .title-divider {
+  background: linear-gradient(135deg, var(--rose), var(--peach));
+}
+
+.red-theme .couple-photo {
+  border-color: var(--rose);
+}
+
+.red-theme .social-link {
+  background: var(--rose);
+}
+
+.red-theme .maps-btn {
+  background: linear-gradient(135deg, var(--rose), var(--peach));
+}
+
+.red-theme .submit-btn {
+  background: linear-gradient(135deg, var(--rose), var(--peach));
+}
+
+.red-theme .share-btn.whatsapp {
+  background: var(--rose);
+}
+
+.red-theme .copy-btn {
+  background: var(--rose);
+}
+
+.red-theme .footer-hearts {
+  color: var(--rose);
+}
