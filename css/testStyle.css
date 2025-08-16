@@ -1,0 +1,84 @@
+/* Test Styles for Development */
+.debug-border {
+  border: 2px solid red !important;
+}
+
+.debug-bg {
+  background: rgba(255, 0, 0, 0.1) !important;
+}
+
+.debug-text {
+  color: red !important;
+  font-weight: bold !important;
+}
+
+/* Performance Testing */
+.performance-test {
+  transition: all 0.1s ease !important;
+}
+
+.performance-test:hover {
+  transform: scale(1.02) !important;
+}
+
+/* Mobile Debug */
+@media (max-width: 768px) {
+  .mobile-debug {
+    border: 3px solid blue !important;
+  }
+}
+
+/* Animation Testing */
+.test-animation {
+  animation: testPulse 2s infinite;
+}
+
+@keyframes testPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Grid Testing */
+.grid-debug {
+  background-image: 
+    linear-gradient(rgba(255,0,0,0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,0,0,0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Z-index Testing */
+.z-test-1 { z-index: 1000 !important; background: rgba(255,0,0,0.3) !important; }
+.z-test-2 { z-index: 2000 !important; background: rgba(0,255,0,0.3) !important; }
+.z-test-3 { z-index: 3000 !important; background: rgba(0,0,255,0.3) !important; }
+
+/* Accessibility Testing */
+.a11y-focus:focus {
+  outline: 3px solid #ff6b6b !important;
+  outline-offset: 2px !important;
+}
+
+.a11y-high-contrast {
+  filter: contrast(150%) !important;
+}
+
+/* Loading State Testing */
+.loading-test {
+  position: relative;
+  overflow: hidden;
+}
+
+.loading-test::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  animation: loading-shimmer 1.5s infinite;
+}
+
+@keyframes loading-shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
