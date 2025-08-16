@@ -1,11 +1,11 @@
-# # INVITEWEDDING
+# undangan-pernikahan
 
 Proyek **Undangan Digital Pernikahan** berbasis HTML, CSS, dan JavaScript.  
 Didesain ringan, responsif, dan mudah untuk dikustomisasi sesuai kebutuhan acara.
 
 ## Struktur Folder
 
-INVITEWEDDING/ ├── css/ │   ├── colorbox.css │   ├── red.css │   ├── style.css │   └── testStyle.css ├── js/ │   ├── index.js │   ├── jquery.firefly-0.3-min.js │   └── script.js ├── favicon.ico └── index.html
+undangan-pernikahan/ ├── css/ │   ├── colorbox.css │   ├── red.css │   ├── style.css │   └── testStyle.css ├── js/ │   ├── index.js │   ├── jquery.firefly-0.3-min.js │   └── script.js ├── favicon.ico └── index.html
 
 ## Fitur
 
@@ -18,11 +18,11 @@ INVITEWEDDING/ ├── css/ │   ├── colorbox.css │   ├── red.c
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/username/INVITEWEDDING.git
+   git clone https://github.com/username/undangab-pernikahan.git
 
 2. Masuk ke folder proyek:
 
-cd INVITEWEDDING
+cd undangan-pernikahan
 
 
 3. Jalankan dengan Live Server (di VS Code atau Acode):
@@ -31,7 +31,7 @@ Klik kanan index.html → Open with Live Server, atau
 
 Jalankan manual dengan browser:
 
-file:///path-ke-folder/INVITEWEDDING/index.html
+file:///path-ke-folder/undangan-pernikahan/index.html
 
 
 
