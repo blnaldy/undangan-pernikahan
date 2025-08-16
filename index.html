@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ichas & Diva - Undangan Pernikahan</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Meta Tags for SEO and Social Media -->
+    <meta name="description" content="Undangan pernikahan Ichas Asha Syahroni & Diva Tiara - 31 Agustus 2025. Bergabunglah dengan kami dalam merayakan hari bahagia ini.">
+    <meta name="keywords" content="undangan pernikahan, wedding invitation, Ichas, Diva, 31 Agustus 2025">
+    <meta name="author" content="Ichas & Diva">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Ichas & Diva - Undangan Pernikahan">
+    <meta property="og:description" content="Anda diundang ke pernikahan Ichas Asha Syahroni & Diva Tiara pada 31 Agustus 2025">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/FFCAD4/333?text=Ichas+%26+Diva+Wedding">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content="Ichas & Diva - Undangan Pernikahan">
+    <meta property="twitter:description" content="Anda diundang ke pernikahan Ichas Asha Syahroni & Diva Tiara pada 31 Agustus 2025">
+    <meta property="twitter:image" content="https://via.placeholder.com/1200x630/FFCAD4/333?text=Ichas+%26+Diva+Wedding">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colorbox.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400&family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" as="image">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-rings">
+                <div class="ring"></div>
+                <div class="ring"></div>
+                <div class="ring"></div>
+            </div>
+            <h3>Memuat Undangan...</h3>
+            <p>Ichas & Diva</p>
+        </div>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="backgroundMusic" loop preload="none">
+        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/mpeg">
+        <!-- Placeholder for My Love - Westlife -->
+    </audio>
+
+    <!-- Hero Section / Pembuka -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="arabic-text" data-aos="fade-down" data-aos-duration="1000">
+                <p>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</p>
+                <p>وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا</p>
+            </div>
+            
+            <div class="hero-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <h1>The Wedding of</h1>
+                <h2>Ichas Asha Syahroni</h2>
+                <div class="ampersand">&</div>
+                <h2>Diva Tiara</h2>
+            </div>
+            
+            <div class="hero-date" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <p>31 Agustus 2025</p>
+            </div>
+            
+            <button id="openInvitation" class="open-btn" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
+                <i class="fas fa-envelope-open"></i>
+                Buka Undangan
+            </button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div id="mainContent" class="main-content hidden">
+        <!-- Navigation -->
+        <nav class="floating-nav">
+            <a href="#couple" class="nav-item" title="Mempelai"><i class="fas fa-heart"></i></a>
+            <a href="#countdown" class="nav-item" title="Countdown"><i class="fas fa-clock"></i></a>
+            <a href="#event" class="nav-item" title="Acara"><i class="fas fa-calendar"></i></a>
+            <a href="#gallery" class="nav-item" title="Galeri"><i class="fas fa-images"></i></a>
+            <a href="#rsvp" class="nav-item" title="RSVP"><i class="fas fa-reply"></i></a>
+        </nav>
+
+        <!-- Music Control -->
+        <div class="music-control">
+            <button id="musicToggle" class="music-btn" title="Kontrol Musik">
+                <i class="fas fa-music"></i>
+            </button>
+        </div>
+
+        <!-- Couple Section -->
+        <section id="couple" class="section couple-section">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Mempelai</h2>
+                    <div class="title-divider"></div>
+                </div>
+                
+                <div class="couple-cards">
+                    <!-- Groom Card -->
+                    <div class="couple-card" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="couple-photo">
+                            <img src="https://via.placeholder.com/300x300/F8EDEB/333?text=Ichas" alt="Ichas Asha Syahroni" loading="lazy">
+                        </div>
+                        <div class="couple-info">
+                            <h3>Ichas Asha Syahroni</h3>
+                            <p>Putra dari</p>
+                            <p><strong>Bapak [Nama Ayah] & Ibu [Nama Ibu]</strong></p>
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="Instagram Ichas"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link" aria-label="Facebook Ichas"><i class="fab fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bride Card -->
+                    <div class="couple-card" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="couple-photo">
+                            <img src="https://via.placeholder.com/300x300/FFCAD4/333?text=Diva" alt="Diva Tiara" loading="lazy">
+                        </div>
+                        <div class="couple-info">
+                            <h3>Diva Tiara</h3>
+                            <p>Putri dari</p>
+                            <p><strong>Bapak [Nama Ayah] & Ibu [Nama Ibu]</strong></p>
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="Instagram Diva"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link" aria-label="Facebook Diva"><i class="fab fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countdown Section -->
+        <section id="countdown" class="section countdown-section">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Menuju Hari Bahagia</h2>
+                    <div class="title-divider"></div>
+                </div>
+                
+                <div class="countdown-timer" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <label>Hari</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <label>Jam</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <label>Menit</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <label>Detik</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Event Section -->
+        <section id="event" class="section event-section">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Acara Pernikahan</h2>
+                    <div class="title-divider"></div>
+                </div>
+                
+                <div class="event-cards">
+                    <!-- Akad Nikah -->
+                    <div class="event-card" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="event-icon">
+                            <i class="fas fa-ring"></i>
+                        </div>
+                        <h3>Akad Nikah</h3>
+                        <div class="event-details">
+                            <p><i class="fas fa-calendar"></i> Minggu, 31 Agustus 2025</p>
+                            <p><i class="fas fa-clock"></i> 08:00 - 10:00 WIB</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Masjid Al-Ikhlas</p>
+                            <p>Jl. Contoh No. 123, Jakarta</p>
+                        </div>
+                    </div>
+
+                    <!-- Resepsi -->
+                    <div class="event-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="event-icon">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                        <h3>Resepsi</h3>
+                        <div class="event-details">
+                            <p><i class="fas fa-calendar"></i> Minggu, 31 Agustus 2025</p>
+                            <p><i class="fas fa-clock"></i> 11:00 - 15:00 WIB</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Gedung Serbaguna</p>
+                            <p>Jl. Contoh No. 456, Jakarta</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="maps-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <h3>Lokasi Acara</h3>
+                    <div class="maps-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613!3d-6.2087634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sMonas!5e0!3m2!1sen!2sid!4v1635724123456!5m2!1sen!2sid" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            title="Lokasi Pernikahan">
+                        </iframe>
+                    </div>
+                    <a href="https://goo.gl/maps/example" target="_blank" class="maps-btn" rel="noopener">
+                        <i class="fas fa-directions"></i> Buka di Google Maps
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Galeri Foto</h2>
+                    <div class="title-divider"></div>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-duration="1000">
+                        <img src="https://via.placeholder.com/400x300/F8EDEB/333?text=Photo+1" alt="Foto Prewedding 1" loading="lazy">
+                    </div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                        <img src="https://via.placeholder.com/400x300/FCD5CE/333?text=Photo+2" alt="Foto Prewedding 2" loading="lazy">
+                    </div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                        <img src="https://via.placeholder.com/400x300/D8E2DC/333?text=Photo+3" alt="Foto Prewedding 3" loading="lazy">
+                    </div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="https://via.placeholder.com/400x300/FFE5D9/333?text=Photo+4" alt="Foto Prewedding 4" loading="lazy">
+                    </div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="https://via.placeholder.com/400x300/FFCAD4/333?text=Photo+5" alt="Foto Prewedding 5" loading="lazy">
+                    </div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                        <img src="https://via.placeholder.com/400x300/F8EDEB/333?text=Photo+6" alt="Foto Prewedding 6" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gift Section -->
+        <section id="gift" class="section gift-section">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Amplop Digital</h2>
+                    <div class="title-divider"></div>
+                    <p>Doa restu Anda merupakan karunia yang sangat berarti bagi kami</p>
+                </div>
+                
+                <div class="gift-content" data-aos="fade-up" data-aos-duration="1000">
+                    <button id="openGift" class="gift-btn">
+                        <i class="fas fa-gift"></i>
+                        Kirim Hadiah
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP Section -->
+        <section id="rsvp" class="section rsvp-section">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Konfirmasi Kehadiran</h2>
+                    <div class="title-divider"></div>
+                    <p>Mohon konfirmasi kehadiran Anda</p>
+                </div>
+                
+                <form id="rsvpForm" class="rsvp-form" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="form-group">
+                        <label for="guestName">Nama Lengkap</label>
+                        <input type="text" id="guestName" name="guestName" required aria-describedby="guestNameHelp">
+                        <small id="guestNameHelp" class="form-text">Masukkan nama lengkap Anda</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="guestCount">Jumlah Tamu</label>
+                        <select id="guestCount" name="guestCount" required aria-describedby="guestCountHelp">
+                            <option value="">Pilih jumlah tamu</option>
+                            <option value="1">1 Orang</option>
+                            <option value="2">2 Orang</option>
+                            <option value="3">3 Orang</option>
+                            <option value="4">4 Orang</option>
+                            <option value="5">5+ Orang</option>
+                        </select>
+                        <small id="guestCountHelp" class="form-text">Termasuk Anda sendiri</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Konfirmasi Kehadiran</label>
+                        <div class="radio-group" role="radiogroup" aria-labelledby="attendanceLabel">
+                            <label class="radio-label">
+                                <input type="radio" name="attendance" value="hadir" required>
+                                <span class="radio-custom"></span>
+                                Ya, saya akan hadir
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="attendance" value="tidak-hadir" required>
+                                <span class="radio-custom"></span>
+                                Maaf, saya tidak dapat hadir
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Pesan & Doa</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tuliskan pesan dan doa untuk mempelai..." aria-describedby="messageHelp"></textarea>
+                        <small id="messageHelp" class="form-text">Opsional - Berikan ucapan dan doa terbaik</small>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Kirim Konfirmasi
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Share Section -->
+        <section id="share" class="section share-section">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Bagikan Undangan</h2>
+                    <div class="title-divider"></div>
+                    <p>Bantu kami menyebarkan kebahagiaan ini</p>
+                </div>
+                
+                <div class="share-buttons" data-aos="fade-up" data-aos-duration="1000">
+                    <button id="shareWhatsApp" class="share-btn whatsapp" aria-label="Bagikan ke WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp
+                    </button>
+                    <button id="shareFacebook" class="share-btn facebook" aria-label="Bagikan ke Facebook">
+                        <i class="fab fa-facebook"></i>
+                        Facebook
+                    </button>
+                    <button id="shareTwitter" class="share-btn twitter" aria-label="Bagikan ke Twitter">
+                        <i class="fab fa-twitter"></i>
+                        Twitter
+                    </button>
+                    <button id="copyLink" class="share-btn copy" aria-label="Salin Link">
+                        <i class="fas fa-link"></i>
+                        Salin Link
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content" data-aos="fade-up">
+                    <h3>Ichas & Diva</h3>
+                    <p>31 Agustus 2025</p>
+                    <p>Terima kasih atas doa dan kehadiran Anda</p>
+                    <div class="footer-hearts">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="footer-links">
+                        <p style="margin-top: 20px; font-size: 12px; color: #999;">
+                            Made with <i class="fas fa-heart" style="color: var(--rose);"></i> for Ichas & Diva
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Gift Modal -->
+    <div id="giftModal" class="modal" role="dialog" aria-labelledby="giftModalTitle" aria-hidden="true">
+        <div class="modal-content">
+            <span class="close" aria-label="Tutup modal">&times;</span>
+            <h3 id="giftModalTitle">Amplop Digital</h3>
+            <div class="qris-container">
+                <img src="https://via.placeholder.com/300x300/333/FFF?text=QRIS+CODE" alt="QRIS Code untuk transfer" class="qris-image" loading="lazy">
+                <p>Scan QRIS di atas untuk mengirim hadiah</p>
+                <div class="bank-info">
+                    <h4>Atau transfer ke:</h4>
+                    <p><strong>Bank BCA</strong></p>
+                    <p>1234567890</p>
+                    <p>a.n. Ichas Asha Syahroni</p>
+                    <button class="copy-btn" onclick="copyBankInfo()" aria-label="Salin nomor rekening">
+                        <i class="fas fa-copy"></i> Salin No. Rekening
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.firefly-0.3-min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+
+    <!-- Loading Screen Styles -->
+    <style>
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--soft-pink) 0%, var(--peach) 50%, var(--rose) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+
+        .loading-content {
+            text-align: center;
+            color: var(--dark-text);
+        }
+
+        .loading-rings {
+            display: inline-block;
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        .ring {
+            box-sizing: border-box;
+            display: block;
+            position: absolute;
+            width: 64px;
+            height: 64px;
+            margin: 8px;
+            border: 8px solid var(--rose);
+            border-radius: 50%;
+            animation: ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+            border-color: var(--rose) transparent transparent transparent;
+        }
+
+        .ring:nth-child(1) { animation-delay: -0.45s; }
+        .ring:nth-child(2) { animation-delay: -0.3s; }
+        .ring:nth-child(3) { animation-delay: -0.15s; }
+
+        @keyframes ring {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-content h3 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .loading-content p {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .form-text {
+            font-size: 12px;
+            color: var(--light-text);
+            margin-top: 5px;
+            display: block;
+        }
+
+        /* Accessibility improvements */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Focus styles for better accessibility */
+        button:focus,
+        input:focus,
+        select:focus,
+        textarea:focus,
+        a:focus {
+            outline: 2px solid var(--rose);
+            outline-offset: 2px;
+        }
+
+        /* High contrast mode support */
+        @media (prefers-contrast: high) {
+            :root {
+                --shadow: rgba(0, 0, 0, 0.3);
+                --shadow-hover: rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+
+    <!-- Initialize loading screen -->
+    <script>
+        // Hide loading screen after page loads
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                const loadingScreen = document.getElementById('loadingScreen');
+                if (loadingScreen) {
+                    loadingScreen.style.opacity = '0';
+                    setTimeout(function() {
+                        loadingScreen.style.display = 'none';
+                    }, 500);
+                }
+            }, 1500); // Show loading for at least 1.5 seconds
+        });
+
+        // Add firefly effect after invitation is opened
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('openInvitation').addEventListener('click', function() {
+                setTimeout(function() {
+                    if (typeof jQuery !== 'undefined' && jQuery.fn.firefly) {
+                        jQuery('body').firefly({
+                            color: '#FFCAD4',
+                            width: 6,
+                            height: 6,
+                            speed: 4000,
+                            total: 12
+                        });
+                    }
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+</html>
